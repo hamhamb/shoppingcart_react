@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  font-size: calc(10px + 2vmin);
+  background-color: #444;
+  padding: 30px 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  display: contents;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #444;
+  padding: 0 2rem;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.header nav .cart-summary {
+  display: flex;
+  align-items: center;
+}
+
+.header nav .cart-quantity {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.catalog,
+.cart {
+  padding: 50px 50px 20px;
+}
+
+.cart .back {
+  text-align: left;
+}
+
+.cart a {
+  text-decoration: none;
+  color: #444;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table-header {
+  display: table-header-group;
+}
+
+.table-body {
+  display: table-row-group;
+}
+
+.table-footer {
+  display: table-footer-group;
+}
+
+.table-header div,
+.table-body div:last-of-type div {
+  border-bottom: 1px solid #444;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-header div,
+.table-body .table-row div,
+.table-footer .table-row div {
+  display: table-cell;
+  padding: 20px 10px;
+}
+
+.table .table-header div:first-of-type,
+.table .table-body .table-row div:first-of-type {
+  text-align: left;
+}
+
+.table .table-header div:last-of-type,
+.table .table-body .table-row div:last-of-type,
+.table .table-footer .table-row div:last-of-type {
+  text-align: right;
+}
+
+.offer {
+  color: red;
+  display: block;
+  font-size: 12px;
+  text-emphasis: dot;
+  -webkit-text-emphasis: dot;
+}
+
+.saving {
+  color: red;
+}
+
+.table .table-body .price:before,
+.table .table-footer .price:before {
+  content: "£ ";
+}
+
+.table .table-body .quantity {
+  display: flex;
+  justify-content: space-evenly;
+}
